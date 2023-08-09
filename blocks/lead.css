@@ -16,7 +16,8 @@
 }
 
 .lead__subtitle {
-  margin: 32px 0 64px;
+  margin-top: 32px;
+  margin-bottom: 64px;
   width: 720px;
   text-align: center;
   font-size: 30px;
