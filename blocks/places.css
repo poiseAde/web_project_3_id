@@ -26,7 +26,7 @@
   align-self: flex-end;
 }
 
-.plce__artist-container {
+.place__artist-container {
   width: 100%;
   grid-area: artist;
   display: flex;

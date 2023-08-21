@@ -45,6 +45,7 @@
 }
 
 .cover__subtitle {
+  margin-bottom: 32px;
   max-width: 280px;
   white-space: pre-line;
   text-align: center;
@@ -55,10 +56,6 @@
   line-height: 1.22;
   position: relative;
   z-index: 1;
-}
-
-.cover__subtitle:last-of-type {
-  margin-bottom: 32px;
 }
 
 .cover__button {
