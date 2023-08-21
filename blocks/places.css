@@ -6,7 +6,7 @@
   max-width: 992px;
   margin: 0 auto 92px;
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
@@ -80,7 +80,6 @@
 .place__paragraph-container {
   grid-area: paragraph;
   width: 100%;
-  height: max-content(340px);
 }
 
 .place__paragraph {
@@ -95,14 +94,11 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 950px) {
   .place {
-    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
     grid-gap: 48px 28px;
   }
-}
 
-@media screen and (max-width: 950px) {
   .place__title {
     font-size: 42px;
     line-height: 1.09;
