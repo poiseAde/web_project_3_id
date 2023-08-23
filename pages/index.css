@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font/font.css);
+@import url(../blocks/page.css);
 @import url(../blocks/logo.css);
 @import url(../blocks/lead.css);
 @import url(../blocks/intro.css);
@@ -14,11 +15,3 @@
   box-sizing: border-box;
 }
 
-.page {
-  margin: 0 auto;
-  min-width: 320px;
-  max-width: 1280px;
-  font-family: "Inter", sans-serif;
-  color: white;
-  background-color: #2a2c2f;
-}
