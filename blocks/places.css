@@ -128,7 +128,6 @@
   }
   .place {
     display: block;
-    position: relative;
     padding-bottom: 90px;
   }
 
@@ -136,13 +135,6 @@
   .place__artist,
   .place__image {
     margin-bottom: 30px;
-  }
-
-  .place__button {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
   }
 }
 
