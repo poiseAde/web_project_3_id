@@ -7,10 +7,13 @@
   margin: 0 auto 92px;
   display: grid;
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+  grid-template-rows: repeat(4, auto);
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
-    "nft paragraph";
+    "image paragraph"
+    "button paragraph"
+    ". paragraph"
 }
 
 .place:last-child {
@@ -49,32 +52,10 @@
   text-transform: uppercase;
 }
 
-.place__nft-container {
-  grid-area: nft;
-}
-
 .place__image {
   width: 100%;
+  grid-area: image;
   height: auto;
-}
-
-.place__button {
-  width: 304px;
-  height: 48px;
-  margin-top: 43px;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  background-color: #0278fe;
-  color: #fff;
-  border-radius: 4px;
-  transition: 0.2s linear;
-  border: none;
-}
-
-.place__button:hover {
-  background-color: #0063d2;
 }
 
 .place__paragraph-container {
@@ -93,6 +74,30 @@
 .place__paragraph:last-child {
   margin-bottom: 0;
 }
+
+.place__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 304px;
+  height: 48px;
+  grid-area: button;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  background-color: #0278fe;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.2s linear;
+  border: none;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+}
+
 
 @media screen and (max-width: 950px) {
   .place {

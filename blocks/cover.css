@@ -59,12 +59,16 @@
 }
 
 .cover__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 137px;
   height: 48px;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  text-decoration: none;
   background-color: #0278fe;
   color: #fff;
   border-radius: 4px;
