@@ -98,7 +98,6 @@
   background-color: #0063d2;
 }
 
-
 @media screen and (max-width: 950px) {
   .place {
     grid-gap: 48px 28px;
@@ -153,4 +152,3 @@
     width: 288px;
   }
 }
-
